@@ -13,7 +13,8 @@ ul {
 	list-style-type: none;
 }
 
-.card {
+.card,
+.new-card {
 	border: 1px solid var(--blue);
 	border-radius: 1rem;
 	display: grid;
@@ -32,10 +33,11 @@ ul {
 	justify-content: space-between;
 }
 .card > header button {
-	align-self: flex-end;
-	background-color: transparent;
+	align-self: flex-start;
 	border: none;
+	cursor: pointer;
 	font-size: 2rem;
+	line-height: 0;
 	transform: rotateZ(45deg);
 }
 .card > header button:focus {
@@ -80,18 +82,50 @@ ul {
 }
 .container > header nav {
 	margin-right: 1rem;
+	position: relative;
 }
 .container > header nav ul {
-	display: flex;
+	background-color: white;
+	display: none;
+	left: -47px;
+	position: absolute;
 }
 .container > header nav ul li {
-	margin-left: 1rem;
+	margin-top: 1rem;
+}
+.container > header nav ul li a {
+	color: var(--blue);
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+}
+.container > header nav ul li.active a {
+	background-color: var(--blue);
+	color: white;
 }
 .container > header nav ul li:first-child {
 	margin-left: 0;
 }
 .container > main {
 	grid-column: 1/2;
+}
+.nav-menu {
+	border: none;
+	color: var(--blue);
+	cursor: pointer;
+	padding: 0.5em;
+}
+.new-card * {
+	margin-bottom: 1rem;
+}
+.new-card input,
+.new-card textarea {
+	border: 1px solid var(--blue);
+	display: block;
+	padding: 0.25rem;
+	width: 100%;
+}
+.new-card form {
+	grid-column: 1 / -1;
 }
 .news-feed-card {
 	border: 1px solid var(--blue);
