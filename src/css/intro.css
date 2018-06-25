@@ -1,0 +1,45 @@
+.intro {
+  display: flex;
+  color: rgb(46, 45, 42);
+  padding: 10rem;
+  
+  
+}
+
+.intro-middle h2 {
+  color: white;
+  font-size: 3rem;
+}
+
+.intro-middle {
+  background: rgb(105, 90, 47);
+  padding: 2em 2vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  border: 10px solid black;
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+.intro-left img {
+  object-fit: cover;
+  min-height: 80%;
+  min-width: 90%;
+  display: flex;
+  border: 20px solid black;
+}
+.intro-right img {
+  object-fit: cover;
+  min-height: 80%;
+  min-width: 90%;
+  display: flex;
+  border: 20px solid black;
+}
+
+.intro p {
+  font-size: 2rem;
+  color: black;
+}
