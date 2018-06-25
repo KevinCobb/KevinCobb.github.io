@@ -1,14 +1,15 @@
 
   .about_me {
+    height: 100vw;
     display: grid;
-    grid-template-columns: [port-start] minmax(6em, 1fr) [name-start] minmax(4em, 2fr) [image-end] 2fr [port-end]; 
+    grid-template-columns: [port-start] minmax(6em, 1fr) [name-start] minmax(4em, 2fr) [image-end] 2fr [port-end];
     background-image: url(../img/skyline-2.jpg);
-    margin-bottom: 10em;
-    padding: 4rem;
+    margin-bottom: 2%;
+    padding: 2%;
     background-blend-mode: lighten;
     background-repeat: no-repeat;
-    display: block;
-    background-size: 100%;
+    display: flex;
+    background-size: 100vw;
  }
 
 .about-img {
@@ -25,15 +26,18 @@
   grid-column: name / port;
   grid-row: 1 / 2;
   align-self: end;
-  margin-bottom: .5em;
+  margin-bottom: 1%;
+  display: flex;
 }
 
-h1 {
+.about_me h1 {
   font-size: 8rem;
-	color: rgb(48, 59, 87);
+  color: rgb(48, 59, 87);
+  display: flex;
+  max-height: 15%;
 }
 
-h2 {
+.about_me h2 {
   font-size: 5rem;
   font-stretch: normal;
 	letter-spacing: 2px;
@@ -48,10 +52,11 @@ h2 {
 }
 
 .about-text {
-  float: right;
+  display: flex;
   font-size: 2.25em;
   color: rgb(25, 26, 21);
-  justify-items: center;
+  justify-items: bottom;
+  max-height: 10%;
 }
 
 .clearfix::after {
