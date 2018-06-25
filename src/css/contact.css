@@ -1,19 +1,20 @@
 .contact {
   font-family: Verdana, Geneva, sans-serif;
   padding: 10rem ;
-  background-color: rgb(128, 139, 119);
-  display: block;
+  background-color: rgb(143, 223, 78);
+  display: inline-block;
   border: 250px solid black;
 
 }
-h1 {
+.contact h1 {
   text-align: center;
   font-size: 9rem;
   font-family: Tahoma, Segoe UI, sans-serif; 
+  color: rgb(29, 39, 13);
 
 }
 
-label {
+.contact label {
   display: block;
   margin-top: 1em;
   color: rgb(50, 63, 48);
@@ -28,7 +29,7 @@ textarea {
  display: block; 
  padding: .75em;
  width: 90%;
- background: rgba(169, 169, 169, 0.534);
+ background: rgba(124, 173, 92, 0.534);
  border: 1px solid rgb(48, 47, 47);
  margin-left: 3.25rem;
  font-size: 1.2rem;
@@ -36,10 +37,11 @@ textarea {
 
 .button {
   display: inline-block;
-  width: 10%;
+  width: 20%;
   margin-top: 1em;
-  margin-left: 950px;
+  margin-left: 30%;
   background: rgba(116, 231, 121, 0.575);
   color: white;
+  
 }
 

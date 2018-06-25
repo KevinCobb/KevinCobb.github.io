@@ -1,14 +1,13 @@
 
   .about_me {
     height: 100vw;
-    display: grid;
+    display: inline-block;
     grid-template-columns: [port-start] minmax(6em, 1fr) [name-start] minmax(4em, 2fr) [image-end] 2fr [port-end];
     background-image: url(../img/skyline-2.jpg);
     margin-bottom: 2%;
     padding: 2%;
     background-blend-mode: lighten;
     background-repeat: no-repeat;
-    display: flex;
     background-size: 100vw;
  }
 
@@ -55,7 +54,7 @@
   display: flex;
   font-size: 2.25em;
   color: rgb(25, 26, 21);
-  justify-items: bottom;
+  
   max-height: 10%;
 }
 
@@ -63,4 +62,12 @@
   content: "";
   clear: both;
   display: table;
+}
+.about_me p {
+  font-size: 2rem;
+  color: rgb(77, 177, 235);
+}
+
+.text-also {
+  color:  rgb(247, 171, 31);
 }
