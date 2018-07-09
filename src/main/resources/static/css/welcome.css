@@ -4,7 +4,6 @@ body {
 	font-weight: 400;
 	-webkit-font-smoothing: antialiased;
 	display: flex;
-	max-width: 70vw;
 	justify-content: center;
 	padding: 1.25em; /* 20 */
 }
@@ -30,7 +29,7 @@ a, a:hover {
 	text-decoration: none;
 }
 #nav {
-	width: 60em; /* 1000 */
+	width: 60em; 
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	position: absolute;
