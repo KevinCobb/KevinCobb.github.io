@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../static/css/contact.css">
+  <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri" rel="stylesheet">
+  <title>About Kevin</title>
+</head>
+<body>
+  <h1 id="about" >About Kevin</h1>
+  <div class="box">
+      <h1>SoftWare Developer</h1>
+      <p>I have been in software development training at WeCanCodeIT full-stack bootcamp in Columbus Ohio from May 2018 to August 2018. My training included programming in Java as a main focus along with Spring. Training also included Thymeleaf, HTML, CSS and SQL. </p>
+      <br><button id="showButton"><a href="projects.html">Check it out</a></button>
+    </div>
+    <div class="box2">
+      <h1>Photographer</h1>
+      <p>I have been an amature Photographer for several years. I use a combination of Nikon products along with Adobe Lightroom. I enjoy all aspects of subjects but seem to be drawn to landscape, action, abstract, and animals.</p>
+      <br><button id="showButton2"><a href="portfolio.html">Check it out</a></button>
+    </div>
+    <footer class="footer">
+      <p>Follow me on these social media links</p>
+      <div class="social-icons">
+        
+        <a href="https://twitter.com/"><img class="social-icon" src="../static/img/twitter.jpg" alt="twitter link"></a>
+        <a href="https://www.facebook.com/kevin.cobb.148"><img class="social-icon" src="../static/img/facebook.jpg" alt="facebook link"></a>
+        <a href="https://www.linkedin.com/in/kevin-cobb-51b135165/"><img class="social-icon" src="../static/img/Linkedin.jpg" alt="linkedinlink"></a>
+        <a href="https://www.instagram.com/bender953/"><img class="social-icon" src="../static/img/instagram.jpg" alt="instagram link"></a>
+        <a href="https://github.com/KevinCobb"><img class="social-icon" src="../static/img/github.jpg" alt="github link"></a>
+      </div>
+      <small>&copy;2018</small>
+    </footer>
+    <script src="../src/js/contact.js"></script>
+    <div id="form-main">
+        <div id="form-div">
+          <form class="form" id="form1">
+            
+            <p class="name">
+              <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+            </p>
+            
+            <p class="email">
+              <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+            </p>
+            
+            <p class="text">
+              <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+            </p>
+                        
+            <div class="submit">
+              <input type="submit" value="SEND" id="button-blue"/>
+              <div class="ease"></div>
+            </div>
+          </form>
+        </div>
+    </div>
+  </body>
+</html>
